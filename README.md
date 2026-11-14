@@ -1,7 +1,11 @@
 # Skills (curated fork)
 
 Fork of [mattpocock/skills](https://github.com/mattpocock/skills), cut down to the skills actually used.
-Installed in Claude Code as the plugin `mattpocock-skills@mattpocock` from this repo (see `~/.claude/settings.base.json`).
+Installed in Claude Code as the plugin `mattpocock-skills@mattpocock` from this repo (see `~/.claude/settings.base.json`):
+
+```
+/plugin install mattpocock-skills --marketplace ArcKos00/skills
+```
 
 Upstream is kept as the `upstream` remote: `git fetch upstream && git merge upstream/main`, then resolve
 modify/delete conflicts on removed skills with `git rm`.
